@@ -4,7 +4,7 @@
   "main": "src/server.ts",
   "type": "module",
   "scripts": {
-    "dev": "ts-node --loader ts-node/esm src/server.ts"
+    "dev": "bun --watch ."
   },
   "keywords": [],
   "author": "",
@@ -21,7 +21,8 @@
   },
   "dependencies": {
     "express": "^5.1.0",
-    "mongoose": "^8.19.2"
+    "mongoose": "^8.19.2",
+    "winston": "^3.18.3"
   },
   "private": true
 }
