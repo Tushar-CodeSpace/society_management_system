@@ -31,7 +31,7 @@ export function LoginForm({
                         </a>
                         <h1 className="text-xl font-bold">Welcome to Acme Inc.</h1>
                         <FieldDescription>
-                            Don&apos;t have an account? <a href="#">Sign up</a>
+                            Don&apos;t have an account? <a href="/signup">Sign Up</a>
                         </FieldDescription>
                     </div>
                     <Field>
