@@ -1,5 +1,5 @@
 import * as React from "react";
-import { GalleryVerticalEnd } from "lucide-react";
+import { Code2, GalleryVerticalEnd } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import {
@@ -71,7 +71,7 @@ export function SignupForm({ className, onAvailable, ...props }: Props) {
                     <div className="flex flex-col items-center gap-2 text-center">
                         <a href="#" className="flex flex-col items-center gap-2 font-medium">
                             <div className="flex size-8 items-center justify-center rounded-md">
-                                <GalleryVerticalEnd className="size-6" />
+                                <Code2 className="size-6" />
                             </div>
                             <span className="sr-only">Acme Inc.</span>
                         </a>
